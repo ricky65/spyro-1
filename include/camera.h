@@ -31,6 +31,28 @@ extern SphericalCoordsOffset D_8006CA84; // Dunno
 extern SphericalCoordsOffset D_80078668;
 extern SphericalCoordsOffset D_8006C934;
 
+/* Spherical camera presets */
+extern SphericalCoordsOffset D_8006C8D4;
+extern int D_8006C8D8;
+
+extern SphericalCoordsOffset D_8006C94C;
+extern SphericalCoordsOffset D_8006C964;
+extern SphericalCoordsOffset D_8006C97C;
+extern SphericalCoordsOffset D_8006C994;
+extern SphericalCoordsOffset D_8006C9AC;
+extern SphericalCoordsOffset D_8006C9DC;
+extern SphericalCoordsOffset D_8006CA0C;
+extern SphericalCoordsOffset D_8006CB5C;
+extern SphericalCoordsOffset D_8006CB74;
+
+/* Camera and movement parameters */
+extern u_char D_8007527C;
+
+extern int D_8007592C;
+
+/* Temporary focus position */
+extern Vector3D D_80077798;
+
 typedef struct {
   SHORTMATRIX m_ProjectionMatrix; // Scaled for the aspect ratio
   SHORTMATRIX m_ViewMatrix; // Represents the camera's position and orientation
