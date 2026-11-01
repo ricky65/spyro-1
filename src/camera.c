@@ -806,10 +806,6 @@ void func_80035FB4(void) {
         g_Camera.m_Sphere.m_Coords.radius =
             g_Camera.m_Simulation.m_Coords.radius;
 
-        /*
-         * The target branches to the shared tail at 0x8003717C
-         * when unk_0xC4 is nonzero. We'll implement that tail later.
-         */
         if (g_Camera.unk_0xC4 != 0) {
             step = 5;
             break;
